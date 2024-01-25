@@ -115,7 +115,7 @@ proxy-providers:
 
   free: &free
     <<: *p
-    url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fsub.sharecentre.online%2Fsub&config=https%3A%2F%2Fraw.githubusercontent.com%2FFvr9W%2Fsub%2Fmaster%2Fpref.ini&emoji=true&list=false&sort=true&udp=true&tfo=false&scv=false&append_type=false&fdn=true&scp=true&expand=false"
+    url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fsub.sharecentre.online%2Fsub&config=https%3A%2F%2Fraw.githubusercontent.com%2FSuyu6%2Fsub%2Fmain%2Fpref.ini&emoji=true&list=false&sort=true&udp=true&tfo=false&scv=false&append_type=false&fdn=true&scp=true&expand=false"
     path: ./proxy_providers/free.yaml
     
 proxy-groups:
