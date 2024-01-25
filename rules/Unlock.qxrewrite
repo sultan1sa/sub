@@ -121,7 +121,7 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 
 # > Pear 雪梨
 # > 仓库地址 https://github.com/
-^https?:\/\/m\.pearkin\.com\/(api\/Movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail) url script-response-body https://raw.githubusercontent.com/Fvr9W/sub/master/rules/pear.js
+^https?:\/\/m\.pearkin\.com\/(api\/Movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail) url script-response-body https://raw.githubusercontent.com/Suyu6/sub/main/rules/pear.js
 
 
 # ======= Q ====== #
