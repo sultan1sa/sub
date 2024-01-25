@@ -1,0 +1,55 @@
+#!name=rejectFix
+#!desc=修复一些需要 reject 的
+#!author=Fvr9W
+#!homepage=https://github.com/Fvr9W/sub/edit/master/rules/rejectFix.list
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
+#!date=2023-8-31 21:12:05
+
+# Zhihu
+DOMAIN,appcloud2.in.zhihu.com
+DOMAIN,mqtt.zhihu.com
+DOMAIN,sugar.zhihu.com
+IP-CIDR,118.89.204.198/23
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+USER-AGENT,AVOS*
+
+# OPEN AI 追踪
+DOMAIN,o33249.ingest.sentry.io
+
+# 番茄小说
+DOMAIN,p6-ad-sign.byteimg.com
+DOMAIN,p9-ad-sign.byteimg.com
+DOMAIN,i.snssdk.com
+DOMAIN,i-lq.snssdk.com
+DOMAIN,dig.bdurl.net
+DOMAIN-KEYWORD,zijieapi
+DOMAIN,activity-ag.awemeughun.com
+
+DOMAIN,mcs.snssdk.com
+DOMAIN,tnc3-alisc1.snssdk.com
+DOMAIN,security-lq.snssdk.com
+DOMAIN,tnc3-aliec2.snssdk.com
+DOMAIN,is.snssdk.com
+
+DOMAIN,msync-im1-vip6-std.easemob.com
+
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,api.iegadp.qq.com
+
+DOMAIN,sf3-ttcdn-tos.pstatp.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+
+DOMAIN,*default.ixigua.com
+DOMAIN,v6-novelapp.ixigua.com
+DOMAIN,*novelapp.ixigua.com
+
+IP-CIDR,49.71.37.101/32,no-resolve
+IP-CIDR,117.71.105.23/32,no-resolve
+IP-CIDR,218.94.207.205/32,no-resolve
+IP-CIDR,117.92.229.188/32,no-resolve
+IP-CIDR,101.36.166.16/32,no-resolve
+IP-CIDR,180.96.2.114/32,no-resolve
+
+URL-REGEX,*-default.ixigua.com
+URL-REGEX,^http:\/\/.+\.byteimg\.com\/ad-app-package
+URL-REGEX,^http:\/\/.+\.byteimg\.com\/web\.business\.image
