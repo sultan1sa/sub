@@ -1,0 +1,46 @@
+Premium`fallback`!!GROUPID=0!!^(?!.*?家宽).*香港.*$`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`http://cp.cloudflare.com`60
+Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT`!!GROUPID=0!!.*游戏.*$
+B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+Telegram`select`[]CnixHK 🇭🇰`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
+Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+Netflix`select`[]CnixHK 🇭🇰`[]B1gProxy`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+GlobalMedia`select`[]CnixHK 🇭🇰`[]B1gProxy`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+Microsoft`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]REJECT`!!GROUPID=0!!.*(土耳其|阿根廷).*$
+SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]REJECT`!!GROUPID=0!!.*(土耳其|阿根廷).*$
+Blizzard`select`[]Other Games`[]B1gProxy`[]DIRECT
+PlayStation`select`[]Other Games`[]B1gProxy`[]DIRECT
+Riot`select`[]Other Games`[]B1gProxy`[]DIRECT
+Rockstar`select`[]Other Games`[]B1gProxy`[]DIRECT
+Ubisoft`select`[]Other Games`[]B1gProxy`[]DIRECT
+GlobalGameDownload`select`[]CnixHK 🇭🇰`[]TW 🇨🇳`[]Other Games`[]TAG`[]CNIX`[]FREE`[]DIRECT
+PrivateTracker`select`[]DIRECT`[]TW 🇨🇳`[]Other Games`[]TAG`[]CNIX`[]FREE
+SougouInput`select`[]REJECT`[]DIRECT
+Hijacking`select`[]REJECT`[]DIRECT
+HK 🇭🇰`select`!!GROUPID=0!!.*香港.*$
+AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?家宽).*香港.*$`http://cp.cloudflare.com`60
+CnixHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`http://cp.cloudflare.com`60
+TW 🇨🇳`select`!!GROUPID=0!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
+AutoTW 🇨🇳`fallback`!!GROUPID=0!!^(?!.*?家宽).*台湾.*$`!!GROUPID=1!!.*台湾 α.*$`http://cp.cloudflare.com`60
+KR 🇰🇷`select`!!GROUPID=0!!.*(韩国|首尔).*$
+AutoKR 🇰🇷`fallback`!!GROUPID=0!!^(?!.*?家宽).*韩国.*$`!!GROUPID=1!!.*韩国 δ.*$`http://cp.cloudflare.com`60
+JP 🇯🇵`select`!!GROUPID=0!!.*(日本|东京|大阪).*$
+AutoJP 🇯🇵`fallback`!!GROUPID=0!!^(?!.*?家宽).*日本.*$`!!GROUPID=0!!.*日本 (ζ|ϵ).*$`!!GROUPID=1!!.*日本 α.*$`http://cp.cloudflare.com`60
+SGP 🇸🇬`select`!!GROUPID=0!!.*新加坡.*$
+AutoSGP 🇸🇬`fallback`!!GROUPID=0!!^(?!.*?家宽).*新加坡.*$`!!GROUPID=1!!.*Legacy - 新加坡.*$`http://cp.cloudflare.com`60
+AU 🇦🇺`select`!!GROUPID=0!!.*(悉尼|澳大利亚|新西兰|Oceania).*$`[]SGP 🇸🇬
+AutoAU 🇦🇺`fallback`!!GROUPID=0!!^(?!.*?家宽).*(悉尼|澳大利亚).*$`!!GROUPID=1!!.*(悉尼|澳大利亚) (α|β).*$`http://cp.cloudflare.com`60
+RU 🇷🇺`select`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|叶卡捷琳堡|俄罗斯).*$
+AutoRU 🇷🇺`fallback`!!GROUPID=0!!^(?!.*?家宽).*(莫斯科|圣彼得堡|哈巴罗夫斯克|叶卡捷琳堡|俄罗斯).*$`!!GROUPID=1!!.*俄罗斯 (α|β).*$`http://cp.cloudflare.com`60
+EU 🇪🇺`select`!!GROUPID=0!!.*Europe.*$
+AutoEU 🇪🇺`fallback`!!GROUPID=0!!^(?!.*?家宽).*德国.*$`!!GROUPID=1!!.*(法国|英国|德国) α.*$`http://cp.cloudflare.com`60
+CA 🇨🇦`select`!!GROUPID=0!!.*(多伦多|加拿大|蒙特利尔|温哥华).*$`[]NA 🇺🇲`http://cp.cloudflare.com`60
+AutoCA 🇨🇦`fallback`!!GROUPID=0!!^(?!.*?家宽).*(多伦多|温哥华).*$`!!GROUPID=1!!.*(多伦多|加拿大) (α|β).*$`http://cp.cloudflare.com`60
+NA 🇺🇲`select`!!GROUPID=0!!.*America.*$
+AutoNA 🇺🇲`fallback`!!GROUPID=0!!^(?!.*?家宽).*(圣何塞|西雅图).*$`!!GROUPID=1!!(?!.*?α).*高级 - 美国.*$`http://cp.cloudflare.com`60
+TAG`select`!!GROUPID=0!!.*
+CNIX`select`!!GROUPID=1!!.*(Asia|America|Europe|Oceania|Antarctica).*$
+FREE`select`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入)).*
