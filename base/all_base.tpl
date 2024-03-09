@@ -598,7 +598,7 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/WebPage.conf, tag=�
 https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=「联盟」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=「重定向」神机, update-interval=172800, opt-parser=false, enabled=true
 # Cookie
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = 「合集1」CK获取 update-interval=172800, opt-parser=true, enabled = true
+https://raw.githubusercontent.com/Suyu6/sub/master/rules/GetCookie.conf, tag = 「合集1」CK获取 update-interval=172800, opt-parser=true, enabled = true
 https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet, tag = 「合集2」CK获取, update-interval=172800, opt-parser=false, enabled = false
 
 [server_local]
