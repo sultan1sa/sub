@@ -711,10 +711,6 @@ https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage url script-
 # 微博  (By @GoodHolidays)
 https:\/\/api\.weibo\.cn\/\d\/users\/show url script-request-header https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/weibo.js
 
-# 海底捞  (By @chavyleung)
-# 打开 APP海底捞 然后手动签到 1 次, 系统提示: 获取Cookie: 成功
-^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$ url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js
-
 # 哈啰出行  (By @chavyleung)
 # 打开 APP 进入签到页面: 我的 > 有哈有车 系统提示: 首次写入 哈啰出行 Token 成功 🎉
 # [商店版]
@@ -741,75 +737,12 @@ https:\/\/api\.weibo\.cn\/\d\/users\/show url script-request-header https://raw.
 # APP 我的顺丰 > 任务中心 > 去签到 提示 获取会话: 成功
 ^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
 
-# 腾讯视频  (By @chavyleung)
-#（移动端网页版）
-# 手机浏览器访问下: https://film.qq.com/ 随便选 1 部电影观看手机浏览器访问下: http://v.qq.com/x/bu/mobile_checkin 页面提示提示签到成功, 系统提示: 获取Cookie: 成功 （为保成功率，请刷新一下页面再获取一次）运行下签到脚本看是否提示
-# （PC 端）
-# 获取 Cookie:手机浏览器访问: https://film.qq.com/ 随便选 1 部电影观看 系统提示: 获取Cookie: 成功 （如果不提示获取成功, 点自己头像退出登录, 重新登录下应该就能获取）
-^https:\/\/access.video.qq.com\/user\/auth_refresh url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
-
-# 美团外卖  (By @chavyleung)
-# 打开 APP , 进入签到页面, 系统提示: 获取刷新链接: 成功 然后手动签到 1 次, 系统提示: 获取Cookie: 成功
-# 注意获取Cookie有两条脚本
-# TestFlight与商店版都支持 (但如果你是TestFlight, 建议使用TestFlight的配置)
-# [商店版] QuanX v1.0.6-build194 及更早版本
-^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
-^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/doaction url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
-# [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
-^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/doaction url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
-
-# QQ会员  (By @lowking)
-# qq会员成长值签到
-# 手机qq进入左侧会员，会员成长值页面，点击总成长值获取
-^https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi url script-request-body https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js
-
 # 斗鱼鱼吧  (By @lowking)
 # 打开https://yuba.douyu.com/homepage/hotwbs并登陆，打开获取cookie，刷新页面，提示获取鱼吧关注列表成功
 ^https://yuba.douyu.com/wbapi/web/group/myFollow url script-request-body https://raw.githubusercontent.com/lowking/Scripts/master/douyu/yubaSign.js
 # 斗鱼画质过滤  (By @lowking)
 # https://playclient.douyucdn.cn/lapi/live/appGetPlayer/stream/916749
 ^https:\/\/playclient\.douyucdn\.cn\/lapi\/live\/appGetPlayer\/stream url script-request-body https://raw.githubusercontent.com/lowking/Scripts/master/douyu/streamQuality.js
-
-# 朴朴签到  (By @lowking)
-# 手机朴朴短信登录获取token，
-^https:\/\/cauth.pupuapi.com\/clientauth\/user\/verify_login url script-request-body https://raw.githubusercontent.com/lowking/Scripts/master/pupu/pupuCheckIn.js
-
-# 饿了么  (By @songyangzz)
-# 打开 APP, 访问下`我的`>`签到领红包`(左上角) 系统提示: `获取Cookie: 成功` （如果不提示获取成功, 尝试杀进程再进`个人`>`每日签到`）
-^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ url script-request-header https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js
-
-# 乐心健康步数  (By @iepngs)
-# 重新登录授权获取Cookie,可以用boxjs改上传的步数cookie:lxhealthStep
-^https?:\/\/sports\.lifesense\.com\/sport_service\/sport\/sport\/uploadMobileStepV2 url script-request-body https://raw.githubusercontent.com/iepngs/Script/master/lxhealth/index.js
-
-# 携程旅行  (By @barrym-chen)
-# 登录携程旅行，然后点击我的，我的积分进入即可即可获取cookie
-^https:\/\/m\.ctrip\.com\/restapi\/soa2\/14946\/json\/userBaseInfo url script-request-header https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip/ctrip_cookie.js
-
-# 携程小程序  (By @barrym-chen)
-# 登录携程微信小程序，然后点击，签到进行一次签到即可即可获取cookie
-https://socketio\.ctrip\.com/api url reject
-^https:\/\/m\.ctrip\.com\/restapi\/soa2\/16575\/signin url script-request-body ct_cookie.js
-
-# 艺龙酒店  (By @barrym-chen)
-# 登录艺龙旅行，然后点击签到，幸运抽大奖进入即可即可获取cookie
-^https:\/\/m\.elong\.com\/my\/rafflemileagejson\/getRaffleMileageTodayCount url script-request-header https://raw.githubusercontent.com/barrym-chen/Script/master/elong/elong_draw_cookis.js
-
-# 同程小程序  (By @barrym-chen)
-# 同需要实名认证，这是是签到的基础 在同程艺龙微信小程序主页，我的->连续签到`即可获取cookie成功
-^https:\/\/wx\.17u\.cn\/wcsign\/sign\/GetSignInfo url script-request-body https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_cookie.js
-
-# 网易云音乐人  (By @leiyiyan)
-# 打开“网易云音乐”APP，点击左上角菜单，打开“创作者中心”，进入音乐人中心，点击下方“云豆商城”右侧的“xxx云豆待使用”，再次点击上方的“收支记录”，进入收支记录页面后等待抓取Cookie，提示获取成功即可；
-# 如果需要完成“回复粉丝私信”任务：一：在Boxjs或者Loon的插件中填写粉丝ID，粉丝ID可在APP粉丝详情页面右上角分享链接获取（强烈推荐）；二、请确保您当前拥有粉丝，并且私信列表中存在粉丝的私信，最后务必将粉丝的备注修改为“回复粉丝私信”。以上两个方案选择一个即可。
-# Boxjs订阅链接： https://raw.githubusercontent.com/leiyiyan/resource/main/subscribe/leiyiyan.boxjs.json
-^https?:\/\/music\.163\.com\/weapi\/cloudbean\/records\/incomes url script-request-body https://raw.githubusercontent.com/leiyiyan/resource/main/script/netease_musician/cookie.js
-
-# 微博超话  (By @toulanboy)
-# 打开微博APP --> 底部栏“我的“ --> 中间的”超话社区“ --> 底部栏"我的" --> ”关注“， 弹出通知，提示获取已关注超话链接成功。点进一个超话页面，手动签到一次。弹出通知，提示获取超话签到链接成功。 若之前所有已经签到，请关注一个新超话进行签到。 配置第2个账号方法：第1个账号获取cookie结束后。在微博app中切换到第2个号，进行相同的获取逻辑。
-# box订阅链接：https://raw.githubusercontent.com/toulanboy/scripts/master/toulanboy.boxjs.json 订阅后，可以在box里面进行 cookie清空、通知个数、签到延迟 等设置.
-^https?://m?api\.weibo\.c(n|om)\/2\/(cardlist|page\/button) url script-request-header https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.cookie.js
 
 # 夸克网盘签到  (By @Sliverkiss)
 # 青龙：抓https://drive-m.quark.cn/1/clouddrive/capacity/growth/sign接口的kps、sign、vcode，用#连接，填写到quark_data，多账号用@分割
