@@ -348,6 +348,12 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/QuickSearch.p
 https://raw.githubusercontent.com/Keywos/rule/main/loon/Netisp.plugin, tag=「节点」检测, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/WARP_Node_Query.plugin, tag=「WARP」节点查询, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, tag=「微信」外链增强, enabled = true
+
+
+https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.plugin, tag=Spotify歌词增强及双语模块, enabled = true
+https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule, tag=跳过部分应用的代理检测, enabled = true
+
+
 # 去广告合集
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Suyu6/sub/master/rules/Remix.snippet/_end_/Remix.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」去广告, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf/_end_/MyBlockAds.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集2」去广告, enabled = true
@@ -566,9 +572,6 @@ https://raw.githubusercontent.com/DualSubs/YouTube/main/modules/DualSubs.YouTube
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet, tag=自定义「Siri与搜索」功能, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag=自定义「定位服务」与「地图」功能, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
-
-https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.plugin, tag=Spotify歌词增强及双语模块, enabled = true
-https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule, tag=跳过部分应用的代理检测, enabled = true
 # 去广告
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf, tag=「合集1」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Suyu6/sub/master/rules/Remix.snippet, tag=「合集2」去广告, update-interval=172800, opt-parser=false, enabled=true
