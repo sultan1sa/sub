@@ -662,7 +662,7 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 20 21 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.js, img-url=https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/qidian.png, tag=起点读书, enabled=true
 
 # i茅台自动预约  (By @FoKit)
-17 9 * * * https://gist.githubusercontent.com/Suyu6/cf76045e60e70b08912f0484f33e4717/raw/i-maotai.js, tag=i 茅台, enabled=true
+17 9 * * * https://gist.githubusercontent.com/Suyu6/e7902ff30369b5038b1ee309c4569e15/raw/i-maotai.js, tag=i 茅台, enabled=true
 
 # 假知轩藏书  (By @GoodNight)
 # hostname = zxcstxt.com
