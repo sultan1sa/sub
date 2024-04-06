@@ -553,7 +553,7 @@ static=FREE, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/T
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag = BoxJS, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/QX.snippet, tag = SubStore, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/snippet/HTTPDNS.Block.snippet, tag=「HTTPDNS」禁止, update-interval=172800, opt-parser=false, enabled=false
-#https://raw.githubusercontent.com/Suyu6/sub/master/rules/TikTok.conf, tag = 「TikTok」美区, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Suyu6/sub/master/rules/TikTok.conf, tag = 「TikTok」美区, update-interval=172800, opt-parser=false, enabled=true
 # VIP解锁
 https://raw.githubusercontent.com/Suyu6/sub/master/rules/Unlock.qxrewrite, tag=「合集1」VIP解锁, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule, tag=「合集2」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
