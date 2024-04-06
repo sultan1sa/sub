@@ -326,8 +326,7 @@ https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-
 https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.plugin, tag=「合集2」会员破解, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Suyu6/sub/master/rules/Unlock.qxrewrite/_end_/Unlock.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」会员破解, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/yqc007/QuantumultX/master/LightBeautyCamCrack.js/_end_/LightBeautyCamCrack.plugin?type=qx-rewrite&target=loon-plugin, tag=「轻颜相机5.2.1」会员破解, enabled = false
-#https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, tag=「TikTok」解锁区域, enabled = true
-https://raw.githubusercontent.com/Suyu6/sub/master/Plugin/TikTok_redirect.plugin, policy = GlobalMedia, tag=「TikTok」解锁区域, enabled = true
+https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, tag=「TikTok」解锁区域, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/TestFlight.plugin, tag=「TestFlight」解锁区域, policy = DIRECT, enabled = true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=「Spotify」解锁, enabled = true
 # 功能增强
