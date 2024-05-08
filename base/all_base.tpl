@@ -321,7 +321,7 @@ FREE=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master
 # 基础
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin, policy = B1gProxy, tag = BoxJS, enabled = true
 https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Loon.plugin, policy = B1gProxy, tag = SubStore, enabled = true
-https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.loon.plugin, policy = B1gProxy, tag = ScriptHub, enabled = true
+https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.beta.loon.plugin, policy = B1gProxy, tag = ScriptHub, enabled = true
 # 解锁
 https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.plugin, tag=「合集2」会员破解, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Suyu6/sub/master/rules/Unlock.qxrewrite/_end_/Unlock.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」会员破解, enabled = true
