@@ -748,6 +748,15 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 # gw2c-hw-open.longfor.com
 16 8 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, tag=龙湖天街, img-url=ttps://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png, enabled=true
 
+#奈雪点单签到 (By @Sliverkiss)
+17 8 * * * https://gist.githubusercontent.com/Sliverkiss/4d0e9572b99530b7cb0e7298622aa2a9/raw/naixue.js, tag=奈雪点单签到, enabled=true
+
+#蜜雪冰城签到 (By @Sliverkiss)
+18 8 * * * https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, tag=蜜雪冰城签到, enabled=true
+
+#夸克网盘 (By @Sliverkiss)
+19 8 * * * https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, tag=夸克网盘签到, enabled=true
+
 [http_backend]
 
 [filter_local]
