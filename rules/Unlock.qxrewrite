@@ -148,7 +148,7 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 # > 仓库地址 https://github.com/yqc007/QuantumultX
 # ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
 # ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ url script-analyze-echo-response https://raw.githubusercontent.com/yqc007/QuantumultX/master/TidalHiFiPlusCrack.js
-
+ 
 # ======= U ====== #
 # ======= V ====== #
 # > VSCO 解锁：高级特权
